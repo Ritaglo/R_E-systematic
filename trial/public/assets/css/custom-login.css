@@ -1,0 +1,25 @@
+.form-login {
+	max-width: 35%;
+	margin: 10% auto 0;
+	border-radius: 5px;
+	-webkit-border-radius: 8px;
+	box-shadow: 3px 4px 15px black;
+}
+#p_size{
+	font-size: 1.5em;
+
+}
+.form-login h2.form-login-heading {
+	background: #39737c;
+}
+.btn-theme {
+  color: #fff;
+  background-color: #39737c;
+  border-color: #48bcb4;
+}
+.btn-white{
+	color: #000;
+}
+.modal-header{
+	background-color: #39737c;
+}

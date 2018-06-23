@@ -1,0 +1,13 @@
+.black-bg {
+    background: #39737c;
+    border-bottom: 0px solid #94b2b7;
+}
+.div-white{
+	color: #fff;
+}
+a.active{
+	 	background: #336E7B !Important;
+}
+ul.sidebar-menu {
+    margin-top: 100px;
+}
