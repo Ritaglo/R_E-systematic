@@ -4,6 +4,9 @@
 @section('content')
 
 <section id="container" >
+
+        <!--header end-->
+        
         <!-- **********************************************************************************************************************************************************
         MAIN SIDEBAR MENU
         *********************************************************************************************************************************************************** -->
@@ -14,7 +17,7 @@
                 <ul class="sidebar-menu" id="nav-accordion">
                 
                       <p class="centered"><a href="profile.html"><img src="assets/img/administrator-male.png" class="img-circle" width="60"></a></p>
-                      <h5 class="centered">Administrator</h5>
+                      <h5 class="centered">Bishop</h5>
                       <div>	
                     <li class="mt">
                         <a class="active">
@@ -26,7 +29,7 @@
                     <li class="sub-menu">
                         <a href="javascript:;" >
                             <i class="fa fa-desktop"></i>
-                            <span>Add </span>
+                            <span>Events </span>
                         </a>
                         <ul class="sub">
                             <li><a  href="#">Add Diocese</a></li>
@@ -42,6 +45,7 @@
                             <span>View</span>
                         </a>
                         <ul class="sub">
+                            <li><a  href="./report">Reports</a></li>
                             <li><a  href="#">Priests</a></li>
                             <li><a  href="#">Bishops</a></li>
                             <li><a  href="#">List of Parishes</a></li>
@@ -84,6 +88,8 @@
         MAIN CONTENT
         *********************************************************************************************************************************************************** -->
         <!--main content start-->
+
+          @yield('main-content');
         <!-- pages load faster --> 
       <script src="assets/js/jquery.js"></script>
       <script src="assets/js/jquery-1.8.3.min.js"></script>

@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','PagesController@admin');
+Route::get('/bishop','PagesController@bishop');
 
+Route::resource('report','ReportController');
